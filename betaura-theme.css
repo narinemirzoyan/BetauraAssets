@@ -1051,6 +1051,8 @@ hr,
   }
 }
 
+/* ===== Sidebar ===== */
+
 [data-mj="sidebar-nav"] {
   background: #12171b !important;
 }
@@ -1065,7 +1067,37 @@ hr,
   color: #e8eaed !important;
 }
 
-/* Register button */
+[data-mj="sidebar-section"]:hover {
+  background: rgba(80, 210, 193, 0.12) !important;
+  box-shadow: 0 0 18px rgba(80, 210, 193, 0.18) !important;
+}
+
+/* ===== Header ===== */
+
+[data-mj="custom-header"] {
+  background: rgba(11, 15, 20, 0.95) !important;
+  backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(80, 210, 193, 0.15) !important;
+  box-shadow: 0 2px 20px rgba(80, 210, 193, 0.08) !important;
+}
+
+/* ===== Login Button ===== */
+
+[data-mj="login-button"] {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(80, 210, 193, 0.2) !important;
+  border-radius: 12px !important;
+  color: #e8eaed !important;
+  transition: all 0.2s ease !important;
+}
+
+[data-mj="login-button"]:hover {
+  background: rgba(80, 210, 193, 0.12) !important;
+  box-shadow: 0 0 18px rgba(80, 210, 193, 0.18) !important;
+}
+
+/* ===== Register Button ===== */
+
 [data-mj="register-button"] {
   background: linear-gradient(180deg, #64dfd1, #50d2c1) !important;
   color: #061413 !important;
@@ -1075,78 +1107,26 @@ hr,
 }
 
 [data-mj="register-button"]:hover {
-  transform: translateY(-1px);
+  transform: translateY(-1px) !important;
   box-shadow: 0 0 35px rgba(80, 210, 193, 0.5) !important;
 }
-[data-mj="sidebar-section"]:hover {
-  background: rgba(80, 210, 193, 0.12) !important;
-  box-shadow: 0 0 18px rgba(80, 210, 193, 0.18) !important;
-}
 
-/* Game Cards */
+/* ===== Game Cards ===== */
+
 [data-mj="widget-game-card"] {
   border-radius: 14px !important;
   overflow: hidden !important;
   transition: all 0.25s ease !important;
-  box-shadow: 0 0 12px rgba(80,210,193,0.08) !important;
+  box-shadow: 0 0 12px rgba(80, 210, 193, 0.08) !important;
 }
 
 [data-mj="widget-game-card"]:hover {
   transform: translateY(-4px) !important;
   box-shadow:
-    0 0 25px rgba(80,210,193,0.25) !important,
-    0 0 45px rgba(80,210,193,0.12) !important;
+    0 0 25px rgba(80, 210, 193, 0.25) !important,
+    0 0 45px rgba(80, 210, 193, 0.12) !important;
 }
 
 [data-mj="widget-game-card"] img {
   border-radius: 14px !important;
-}
-
-/* Header */
-[data-mj="custom-header"] {
-  background: rgba(11, 15, 20, 0.95) !important;
-  backdrop-filter: blur(12px) !important;
-  border-bottom: 1px solid rgba(80,210,193,0.15) !important;
-  box-shadow: 0 2px 20px rgba(80,210,193,0.08) !important;
-}
-
-/* Login Button */
-[data-mj="login-button"] {
-  background: rgba(255,255,255,0.05) !important;
-  border: 1px solid rgba(80,210,193,0.2) !important;
-  border-radius: 12px !important;
-  color: #e8eaed !important;
-  padding: 8px 20px !important;
-  transition: all .2s ease !important;
-}
-
-[data-mj="login-button"]:hover {
-  background: rgba(80,210,193,0.12) !important;
-  box-shadow: 0 0 18px rgba(80,210,193,0.18) !important;
-}
-
-/* Register Button */
-[data-mj="register-button"] {
-  background: linear-gradient(180deg,#64dfd1,#50d2c1) !important;
-  color: #061413 !important;
-  border-radius: 12px !important;
-  box-shadow: 0 0 25px rgba(80,210,193,.35) !important;
-}
-
-[data-mj="register-button"]:hover {
-  box-shadow: 0 0 35px rgba(80,210,193,.5) !important;
-}
-
-/* Game Cards */
-[data-mj="widget-game-card"] {
-  border-radius: 14px !important;
-  overflow: hidden !important;
-  transition: all .25s ease !important;
-}
-
-[data-mj="widget-game-card"]:hover {
-  transform: translateY(-4px) !important;
-  box-shadow:
-    0 0 25px rgba(80,210,193,.25),
-    0 0 45px rgba(80,210,193,.12) !important;
 }
