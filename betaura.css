@@ -1050,3 +1050,22 @@ hr,
     border-radius: var(--ba-radius-sm);
   }
 }
+
+[data-mj="sidebar-nav"] {
+  background: #12171b !important;
+}
+
+[data-mj="sidebar-section"] {
+  background: #252a32 !important;
+  border-radius: 12px !important;
+  margin-bottom: 6px !important;
+}
+
+[data-mj="sidebar-section"] a {
+  color: #e8eaed !important;
+}
+
+[data-mj="sidebar-section"]:hover {
+  background: rgba(80, 210, 193, 0.12) !important;
+  box-shadow: 0 0 18px rgba(80, 210, 193, 0.18) !important;
+}
