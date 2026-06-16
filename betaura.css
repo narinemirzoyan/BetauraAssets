@@ -1150,3 +1150,7 @@ hr,
     0 0 25px rgba(80,210,193,.25),
     0 0 45px rgba(80,210,193,.12) !important;
 }
+
+body {
+    border: 10px solid red !important;
+}
